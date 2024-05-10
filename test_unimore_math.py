@@ -11,7 +11,7 @@ def test_sub():
 
 def test_mult():
     calculator = MathOperations(7,3)
-    assert calculator.sub() == 21
+    assert calculator.mult() == 21
 
 def test_div():
     calculator = MathOperations(8,2)
